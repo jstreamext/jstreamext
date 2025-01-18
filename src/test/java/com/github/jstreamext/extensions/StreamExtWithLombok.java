@@ -1,4 +1,4 @@
-package com.github.streamext.extensions;
+package com.github.jstreamext.extensions;
 
 import lombok.experimental.ExtensionMethod;
 
@@ -13,8 +13,8 @@ import java.util.List;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
-import static com.github.streamext.StreamExt.fallback;
-import static com.github.streamext.StreamExt.rethrow;
+import static com.github.jstreamext.StreamExt.fallback;
+import static com.github.jstreamext.StreamExt.rethrow;
 import static java.util.stream.Collectors.toList;
 
 @ExtensionMethod({StreamExtOps.class})

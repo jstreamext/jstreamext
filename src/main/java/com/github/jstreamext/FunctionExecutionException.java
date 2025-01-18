@@ -1,4 +1,4 @@
-package com.github.streamext;
+package com.github.jstreamext;
 
 /**
  * Exception thrown when running a combinator function to operate

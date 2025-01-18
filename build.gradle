@@ -3,8 +3,8 @@ plugins {
     id 'maven-publish'
 }
 
-group 'com.github.streamext'
-version '0.0.2-SNAPSHOT'
+group 'com.github.jstreamext'
+version '0.0.3-SNAPSHOT'
 
 repositories {
     mavenCentral()
@@ -49,8 +49,8 @@ javadoc {
 publishing {
     repositories {
         maven {
-            def releasesRepoUrl = "https://maven.pkg.github.com/ryo-murai/streamext"
-            def snapshotsRepoUrl = "https://maven.pkg.github.com/ryo-murai/streamext"
+            def releasesRepoUrl = "https://maven.pkg.github.com/jstreamext/jstreamext"
+            def snapshotsRepoUrl = "https://maven.pkg.github.com/jstreamext/jstreamext"
             url = uri(version.endsWith('SNAPSHOT') ? snapshotsRepoUrl : releasesRepoUrl)
 
             credentials {
@@ -60,12 +60,13 @@ publishing {
         }
     }
     publications {
-        streamext(MavenPublication) {
+
+        maven(MavenPublication) {
             from components.java
             pom {
                 name = 'Stream API Extension'
                 description = 'Extensions for the Java standard Stream API'
-                url = 'https://github.com/ryo-murai/streamext'
+                url = 'https://github.com/jstreamext/jstreamext'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
@@ -80,9 +81,9 @@ publishing {
                     }
                 }
                 scm {
-                    connection = 'https://github.com/ryo-murai/streamext.git'
-                    developerConnection = 'https://github.com/ryo-murai/streamext.git'
-                    url = 'https://github.com/ryo-murai/streamext'
+                    connection = 'https://github.com/jstreamext/jstreamext.git'
+                    developerConnection = 'https://github.com/jstreamext/jstreamext'
+                    url = 'https://github.com/jstreamext/jstreamext'
                 }
             }
         }

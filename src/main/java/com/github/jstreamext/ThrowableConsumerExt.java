@@ -1,4 +1,4 @@
-package com.github.streamext;
+package com.github.jstreamext;
 
 /**
  * Represents a {@link java.util.function.Consumer} but throws

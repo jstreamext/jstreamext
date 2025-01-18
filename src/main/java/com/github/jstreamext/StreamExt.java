@@ -1,4 +1,4 @@
-package com.github.streamext;
+package com.github.jstreamext;
 
 import java.util.function.*;
 
