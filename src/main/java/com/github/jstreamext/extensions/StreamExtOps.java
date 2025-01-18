@@ -1,9 +1,9 @@
-package com.github.streamext.extensions;
+package com.github.jstreamext.extensions;
 
-import com.github.streamext.FunctionExecutionException;
-import com.github.streamext.ThrowableConsumerExt;
-import com.github.streamext.ThrowableFunctionExt;
-import com.github.streamext.ThrowablePredicateExt;
+import com.github.jstreamext.FunctionExecutionException;
+import com.github.jstreamext.ThrowableConsumerExt;
+import com.github.jstreamext.ThrowableFunctionExt;
+import com.github.jstreamext.ThrowablePredicateExt;
 
 import java.util.List;
 import java.util.function.BiConsumer;
@@ -12,7 +12,7 @@ import java.util.function.BiPredicate;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static com.github.streamext.StreamExt.*;
+import static com.github.jstreamext.StreamExt.*;
 
 /**
  * Stream API Extension Methods

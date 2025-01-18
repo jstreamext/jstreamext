@@ -1,6 +1,6 @@
-package com.github.streamext.extensions;
+package com.github.jstreamext.extensions;
 
-import com.github.streamext.FunctionExecutionException;
+import com.github.jstreamext.FunctionExecutionException;
 import lombok.experimental.ExtensionMethod;
 import org.junit.jupiter.api.Test;
 
